@@ -5,8 +5,8 @@ import kotlinx.serialization.json.Json
 
 /** Builder for HTTP request configuration. */
 public class RequestBuilder {
-    @PublishedApi internal val headers = mutableMapOf<String, String>()
-    @PublishedApi internal val queryParams = mutableListOf<Pair<String, String>>()
+    @PublishedApi internal val headers: MutableMap<String, String> = mutableMapOf()
+    @PublishedApi internal val queryParams: MutableList<Pair<String, String>> = mutableListOf()
     @PublishedApi internal var bodyContent: String? = null
     @PublishedApi internal var contentType: String = "application/json"
 
