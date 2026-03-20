@@ -2,12 +2,9 @@
 
 [![CI](https://github.com/philiprehberger/kt-http-client/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/kt-http-client/actions/workflows/publish.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/com.philiprehberger/http-client)](https://central.sonatype.com/artifact/com.philiprehberger/http-client)
+[![License](https://img.shields.io/github/license/philiprehberger/kt-http-client)](LICENSE)
 
 Lightweight HTTP client DSL with retry, timeout, and JSON support.
-
-## Requirements
-
-- Kotlin 1.9+ / Java 17+
 
 ## Installation
 
@@ -15,7 +12,7 @@ Lightweight HTTP client DSL with retry, timeout, and JSON support.
 
 ```kotlin
 dependencies {
-    implementation("com.philiprehberger:http-client:0.1.0")
+    implementation("com.philiprehberger:http-client:0.1.4")
 }
 ```
 
@@ -25,7 +22,7 @@ dependencies {
 <dependency>
     <groupId>com.philiprehberger</groupId>
     <artifactId>http-client</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.4</version>
 </dependency>
 ```
 
