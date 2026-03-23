@@ -1,6 +1,6 @@
 # http-client
 
-[![CI](https://github.com/philiprehberger/kt-http-client/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/kt-http-client/actions/workflows/publish.yml)
+[![Tests](https://github.com/philiprehberger/kt-http-client/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/kt-http-client/actions/workflows/publish.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/com.philiprehberger/http-client)](https://central.sonatype.com/artifact/com.philiprehberger/http-client)
 [![License](https://img.shields.io/github/license/philiprehberger/kt-http-client)](LICENSE)
 
@@ -11,9 +11,7 @@ Lightweight HTTP client DSL with retry, timeout, and JSON support.
 ### Gradle (Kotlin DSL)
 
 ```kotlin
-dependencies {
-    implementation("com.philiprehberger:http-client:0.1.5")
-}
+implementation("com.philiprehberger:http-client:0.1.6")
 ```
 
 ### Maven
@@ -22,7 +20,7 @@ dependencies {
 <dependency>
     <groupId>com.philiprehberger</groupId>
     <artifactId>http-client</artifactId>
-    <version>0.1.5</version>
+    <version>0.1.6</version>
 </dependency>
 ```
 
