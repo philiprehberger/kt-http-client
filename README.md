@@ -3,6 +3,7 @@
 [![Tests](https://github.com/philiprehberger/kt-http-client/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/kt-http-client/actions/workflows/publish.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/com.philiprehberger/http-client)](https://central.sonatype.com/artifact/com.philiprehberger/http-client)
 [![License](https://img.shields.io/github/license/philiprehberger/kt-http-client)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Lightweight HTTP client DSL with retry, timeout, and JSON support.
 
