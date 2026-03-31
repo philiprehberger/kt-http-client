@@ -1,9 +1,8 @@
 # http-client
 
 [![Tests](https://github.com/philiprehberger/kt-http-client/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/kt-http-client/actions/workflows/publish.yml)
-[![Maven Central](https://img.shields.io/maven-central/v/com.philiprehberger/http-client)](https://central.sonatype.com/artifact/com.philiprehberger/http-client)
-[![License](https://img.shields.io/github/license/philiprehberger/kt-http-client)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Maven Central](https://img.shields.io/maven-central/v/com.philiprehberger/http-client.svg)](https://central.sonatype.com/artifact/com.philiprehberger/http-client)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/kt-http-client)](https://github.com/philiprehberger/kt-http-client/commits/main)
 
 Lightweight HTTP client DSL with retry, timeout, and JSON support.
 
@@ -61,6 +60,24 @@ val created = client.post("/users") { json(CreateUserRequest("Alice")) }
 ./gradlew build
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/kt-http-client)
+
+🐛 [Report issues](https://github.com/philiprehberger/kt-http-client/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/kt-http-client/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
